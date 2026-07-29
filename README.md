@@ -63,9 +63,9 @@ ad-quality-evaluation-framework/
 
 ### Cross-Cutting Findings
 
-1. **Query Modifier Sensitivity** — Ads addressing modifiers in headlines scored **3.2× higher** on relevance than generic copy.
-2. **Intent-Alignment Threshold** — Intent Match below 6.0 universally caps overall quality; above 8.0 enables top-tier scores even with moderate performance elsewhere.
-3. **Landing Page Ceiling** — No ad scored more than 1.0 point above its Landing Page Experience score; LPX functions as a hard quality ceiling.
+1. **Query Modifier Sensitivity**: Ads addressing modifiers in headlines scored **3.2× higher** on relevance than generic copy.
+2. **Intent-Alignment Threshold**: Intent Match below 6.0 universally caps overall quality; above 8.0 enables top-tier scores even with moderate performance elsewhere.
+3. **Landing Page Ceiling**: No ad scored more than 1.0 point above its Landing Page Experience score; LPX functions as a hard quality ceiling.
 
 ---
 
