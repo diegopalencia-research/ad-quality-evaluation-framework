@@ -17,14 +17,6 @@
 | **Interpret and apply guidelines consistently with high accuracy** | Rubric designed with named, discrete dimensions specifically for reproducibility; calibration-ready structure | [Scoring Rubric](./scoring-rubric.md) |
 | **Participate in calibration sessions, consensus discussions, quality reviews** | Framework built on inter-rater reliability principles (Cohen, 1960); scores designed to be challengeable and revisable by a second reviewer | [DJPR9.0 Framework](./djpr9.0-framework.md) |
 
----
-
-## Language Proficiency Evidence
-
-| Requirement | Evidence |
-|:---|:---|
-| **English B2 required** | **C1 certified** — exceeds requirement |
-| **Bilingual working proficiency** | AG-03 in Case Study 02 demonstrates independent copywriting (not translation) in both English and Spanish within a single campaign; separate negative-keyword lists addressing structural ambiguity in each language | [Case Study 02](../case-studies/02-search-campaign-blueprint.md) |
 
 ---
 
