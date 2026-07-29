@@ -31,13 +31,13 @@ The structure of this paper follows the conventions of applied research reportin
 
 Understanding why users enter specific queries into search engines is foundational to evaluating advertisement quality. Broder (2002) introduced a seminal taxonomy of web search that classified queries into three categories: informational (seeking knowledge), navigational (seeking a specific website), and transactional (seeking to perform an action such as a purchase or download). This taxonomy provided the first systematic framework for connecting query syntax to underlying user goals.
 
-Rose and Levinson (2004) expanded this framework through empirical analysis of AltaVista query logs, developing a hierarchical goal structure that refined Broder's categories. Their research revealed that navigational queries were less prevalent than previously assumed (approximately 13–15% of queries), while informational goals dominated at roughly 61–63%. Importantly, Rose and Levinson introduced the concept of "resource seeking" goals a category broader than Broder's transactional classification—that encompasses downloading, entertainment, interaction, and obtaining resources. This hierarchical framework is particularly relevant to advertisement evaluation because it demonstrates that queries with similar surface syntax may encode fundamentally different user goals, requiring distinct evaluative criteria.
+Rose and Levinson (2004) expanded this framework through empirical analysis of AltaVista query logs, developing a hierarchical goal structure that refined Broder's categories. Their research revealed that navigational queries were less prevalent than previously assumed (approximately 13–15% of queries), while informational goals dominated at roughly 61–63%. Importantly, Rose and Levinson introduced the concept of "resource seeking" goals a category broader than Broder's transactional classification that encompasses downloading, entertainment, interaction, and obtaining resources. This hierarchical framework is particularly relevant to advertisement evaluation because it demonstrates that queries with similar surface syntax may encode fundamentally different user goals, requiring distinct evaluative criteria.
 
-Jansen, Booth, and Spink (2008) further operationalized intent classification by developing manual and algorithmic methods for categorizing queries within the informational, navigational, transactional framework. Their work established that query length, term specificity, and syntactic structure provide reliable signals of underlying intent. For example, queries containing brand names tend toward navigational intent, while queries containing action verbs ("buy," "download," "register") tend toward transactional intent. Jansen and Schuster (2011) extended this research into the sponsored search context, demonstrating that aligning bidding strategies with the user's position in the purchase funnel—awareness, interest, consideration, decision, and retention—significantly improves campaign efficiency. Their finding that different intent categories warrant different keyword bidding strategies has direct implications for ad quality evaluation: an advertisement cannot be judged effective without first understanding the intent category of the query it serves.
+Jansen, Booth, and Spink (2008) further operationalized intent classification by developing manual and algorithmic methods for categorizing queries within the informational, navigational, transactional framework. Their work established that query length, term specificity, and syntactic structure provide reliable signals of underlying intent. For example, queries containing brand names tend toward navigational intent, while queries containing action verbs ("buy," "download," "register") tend toward transactional intent. Jansen and Schuster (2011) extended this research into the sponsored search context, demonstrating that aligning bidding strategies with the user's position in the purchase funnel awareness, interest, consideration, decision, and retention—significantly improves campaign efficiency. Their finding that different intent categories warrant different keyword bidding strategies has direct implications for ad quality evaluation: an advertisement cannot be judged effective without first understanding the intent category of the query it serves.
 
 ### 2.2 Google Ads Quality Score Mechanics
 
-Google Ads employs a Quality Score metric—scored from 1 to 10 at the keyword level—to assess the relevance and quality of advertisements, keywords, and landing pages (Google, 2024). Quality Score directly influences ad rank and cost-per-click, making it a critical determinant of campaign performance. The metric comprises three primary components: Expected Click-Through Rate (eCTR), Ad Relevance, and Landing Page Experience.
+Google Ads employs a Quality Score metric (scored from 1 to 10 at the keyword level) to assess the relevance and quality of advertisements, keywords, and landing pages (Google, 2024). Quality Score directly influences ad rank and cost-per-click, making it a critical determinant of campaign performance. The metric comprises three primary components: Expected Click-Through Rate (eCTR), Ad Relevance, and Landing Page Experience.
 
 **Expected Click-Through Rate** represents the probability that a given advertisement will receive a click when shown for a specific query. Google calculates this metric based on historical performance data, adjusting for factors such as ad position, extensions, and other formats that may affect visibility (Google, 2024).
 
@@ -51,15 +51,15 @@ Google emphasizes that these three components are evaluated independently. An ad
 
 Decision Intelligence (DI) represents an emerging discipline that bridges data science, artificial intelligence, and decision theory to improve organizational and individual decision-making. Pratt and Malcolm (2023), in their comprehensive handbook published by O'Reilly Media, define Decision Intelligence as "a step-by-step method for integrating technology into decisions that bridge from actions to desired outcomes" (p. 1). The discipline addresses three widespread problems in data-driven environments: how decision makers can use data and technology to ensure desired outcomes, how technology teams can communicate effectively with decision makers, and how organizations can assess and improve decisions over time.
 
-The core methodology involves causal decision diagrams (CDDs)—visual representations that map the relationships between decisions, actions, outcomes, and external factors. By making the decision structure explicit, DI enables stakeholders to identify leverage points, test assumptions, and reduce uncertainty before committing resources. Pratt and Malcolm (2023) emphasize that DI systems should operate in an advisory, human in the loop capacity rather than replacing human judgment. This principle is directly applicable to AI-powered advertising evaluation, where automated systems generate and serve advertisements but human evaluators must assess whether those advertisements genuinely serve user needs.
+The core methodology involves causal decision diagrams (CDDs) visual representations that map the relationships between decisions, actions, outcomes, and external factors. By making the decision structure explicit, DI enables stakeholders to identify leverage points, test assumptions, and reduce uncertainty before committing resources. Pratt and Malcolm (2023) emphasize that DI systems should operate in an advisory, human in the loop capacity rather than replacing human judgment. This principle is directly applicable to AI-powered advertising evaluation, where automated systems generate and serve advertisements but human evaluators must assess whether those advertisements genuinely serve user needs.
 
-The DJPR9.0 framework adapts Decision Intelligence principles to the specific context of search advertisement evaluation. It treats each evaluation task as a decision problem: given a query, an advertisement, and a landing page, what is the optimal judgment regarding quality, and what evidence supports that judgment? The framework's four phase cycle—Observe, Analyze, Interpret, Recommend—operationalizes the DI principle that decisions should be evidence-based, structurally transparent, and subject to retrospective improvement.
+The DJPR9.0 framework adapts Decision Intelligence principles to the specific context of search advertisement evaluation. It treats each evaluation task as a decision problem: given a query, an advertisement, and a landing page, what is the optimal judgment regarding quality, and what evidence supports that judgment? The framework's four phase cycle (Observe, Analyze, Interpret, Recommend) operationalizes the DI principle that decisions should be evidence-based, structurally transparent, and subject to retrospective improvement.
 
 ### 2.4 Ad Relevance Evaluation Frameworks
 
 Academic research on advertisement relevance has evolved from simple keyword matching to multidimensional assessment models. The foundational principle, established in information retrieval research, holds that relevance is not an intrinsic property of a document or advertisement but rather a relationship between an information object and a user's information need (Rose & Levinson, 2004). In the sponsored search context, this means that ad relevance must be evaluated relative to query intent rather than in absolute terms.
 
-Jansen and Schuster (2011) demonstrated that the buying funnel model—mapping queries to stages of awareness, interest, consideration, decision, and retention—provides a useful framework for assessing whether advertisements address the appropriate stage of user intent. An advertisement that promotes a free whitepaper may be highly relevant for an informational query but irrelevant for a transactional query seeking immediate purchase. This stage specific evaluation criterion has been incorporated into the DJPR9.0 scoring rubric as the "Intent Match" dimension.
+Jansen and Schuster (2011) demonstrated that the buying funnel model (mapping queries to stages of awareness, interest, consideration, decision, and retention) provides a useful framework for assessing whether advertisements address the appropriate stage of user intent. An advertisement that promotes a free whitepaper may be highly relevant for an informational query but irrelevant for a transactional query seeking immediate purchase. This stage specific evaluation criterion has been incorporated into the DJPR9.0 scoring rubric as the "Intent Match" dimension.
 
 Industry practice has converged on a set of best practices for ad relevance that complement academic frameworks. Google (2024) recommends including keywords in advertisement headlines, ensuring that ad copy directly addresses the user's apparent need, and creating multiple ad variations to test relevance hypotheses. The DJPR9.0 framework integrates these practical guidelines with theoretical intent classification to produce evaluations that are both academically grounded and operationally actionable.
 
@@ -69,7 +69,7 @@ The landing page experience represents the critical bridge between advertisement
 
 Empirical research supports the importance of these dimensions. Gafni and Dvir (2018) found that shorter, more focused landing pages generally outperform longer pages in conversion rate, suggesting that content precision matters more than content volume. Viswanathan and Swaminathan (2017) identified colors, images, themes, and call-to-action elements as key drivers of landing page effectiveness, with images and colors being the most immediately captivating components for visitors. Schreiber and Baier (2015) applied hierarchical Bayes choice based conjoint analysis to demonstrate that specific landing page attributes can be quantitatively ranked by their contribution to customer preference.
 
-Google's Landing Page Experience evaluation specifically considers relevance (does the page content align with the ad and keyword?), usability (is the page easy to navigate on all devices?), page speed (does the page load quickly?), and transparency (is information about the business clear and accessible?) (Google, 2024). These criteria align closely with the academic literature while adding the specific requirement of ad-to-landing-page message consistency—a factor that general conversion optimization research sometimes overlooks but that is central to sponsored search quality evaluation.
+Google's Landing Page Experience evaluation specifically considers relevance (does the page content align with the ad and keyword?), usability (is the page easy to navigate on all devices?), page speed (does the page load quickly?), and transparency (is information about the business clear and accessible?) (Google, 2024). These criteria align closely with the academic literature while adding the specific requirement of ad-to-landing-page message consistency a factor that general conversion optimization research sometimes overlooks but that is central to sponsored search quality evaluation.
 
 ---
 
@@ -106,10 +106,10 @@ The composite score is calculated as the arithmetic mean of the five dimensions,
 
 The three case studies were selected according to four criteria:
 
-1. **Intent Category Coverage** — collectively span informational, commercial, transactional, and navigational intent
-2. **Industry Diversity** — cover business software, language education, legal services, home services, and fitness coaching
-3. **Evaluative Depth** — employ live ad scoring, campaign blueprint development, and keyword intent mapping
-4. **Actionability** — produce outputs that directly inform AI system training, campaign management, or strategic planning
+1. **Intent Category Coverage**: collectively span informational, commercial, transactional, and navigational intent
+2. **Industry Diversity**: cover business software, language education, legal services, home services, and fitness coaching
+3. **Evaluative Depth**: employ live ad scoring, campaign blueprint development, and keyword intent mapping
+4. **Actionability**: produce outputs that directly inform AI system training, campaign management, or strategic planning
 
 ---
 
@@ -117,7 +117,7 @@ The three case studies were selected according to four criteria:
 
 ### 4.1 Project 01: Ad Quality Evaluation Report
 
-**Objective:** Test the DJPR9.0 five-dimension scoring rubric on real-world advertising data.
+**Objective:** Test the DJPR9.0 five dimension scoring rubric on real-world advertising data.
 
 **Queries Evaluated:**
 
@@ -184,7 +184,7 @@ The three case studies were selected according to four criteria:
 | Transactional | 10 | 33% | 55% | "hire online fitness coach" |
 | Navigational | 3 | 10% | 5% | "[Brand] fitness coaching" |
 
-**Key Insight:** The steepest decline in search volume occurs between Commercial Investigation and Transactional stages. The highest-value inflection point is where volume drops most sharply—not where it peaks.
+**Key Insight:** The steepest decline in search volume occurs between Commercial Investigation and Transactional stages. The highest value inflection point is where volume drops most sharply not where it peaks.
 
 ---
 
@@ -224,15 +224,15 @@ For the TELUS International AI Google Ads Digital Practitioner role, this paper 
 
 Future research should expand sample sizes, conduct formal inter-rater reliability testing, and explore application to emerging formats including Performance Max campaigns and generative AI-created responsive search ads.
 
-The central contribution is not a new algorithm, but a structured way of thinking about advertisement quality—one that connects the "why" of user search behavior to the "what" of ad creative and the "how" of landing page experience. In an era of increasing automation, this human-centered, evidence-based evaluative perspective remains indispensable.
+The central contribution is not a new algorithm, but a structured way of thinking about advertisement quality one that connects the "why" of user search behavior to the "what" of ad creative and the "how" of landing page experience. In an era of increasing automation, this human-centered, evidence-based evaluative perspective remains indispensable.
 
 ---
 
 ## References
 
-Broder, A. (2002). A taxonomy of web search. *SIGIR Forum*, *36*(2), 3–10. https://doi.org/10.1145/792550.792552
+Broder, A. (2002). A taxonomy of web search. *SIGIR Forum, 36*(2), 3–10. https://doi.org/10.1145/792550.792552
 
-Gafni, R., & Dvir, T. (2018). Short vs. long landing pages: A comparative study. *[Reference details to be verified by author]*
+Dvir, N., & Gafni, R. (2018). When less is more: Empirical study of the relation between consumer behavior and information provision on commercial landing pages. *Informing Science: The International Journal of an Emerging Transdiscipline, 21*, 19–39. https://doi.org/10.28945/4015
 
 Google. (2024). *About Quality Score*. Google Ads Help. https://support.google.com/google-ads/answer/6167118
 
@@ -240,14 +240,14 @@ Google. (2024). *Create effective Search ads*. Google Ads Help. https://support.
 
 Google. (2024). *Improve your ad strength*. Google Ads Help. https://support.google.com/google-ads/answer/10724192
 
-Jansen, B. J., Booth, D. L., & Spink, A. (2008). Determining the informational, navigational, and transactional intent of Web queries. *Information Processing & Management*, *44*(3), 1251–1266. https://doi.org/10.1016/j.ipm.2007.12.004
+Jansen, B. J., Booth, D. L., & Spink, A. (2008). Determining the informational, navigational, and transactional intent of Web queries. *Information Processing & Management, 44*(3), 1251–1266. https://doi.org/10.1016/j.ipm.2007.12.004
 
-Jansen, B. J., & Schuster, S. (2011). Bidding on the buying funnel for sponsored search and keyword advertising. *Journal of Electronic Commerce Research*, *12*(1), 27–47.
+Jansen, B. J., & Schuster, S. (2011). Bidding on the buying funnel for sponsored search and keyword advertising. *Journal of Electronic Commerce Research, 12*(1), 27–47.
 
-Pratt, L. Y., & Malcolm, N. E. (2023). *The Decision Intelligence Handbook: Practical steps for evidence-based decisions in a complex world*. O'Reilly Media.
+Pratt, L. Y., & Malcolm, N. E. (2023). *The Decision Intelligence Handbook: Practical steps for evidence-based decisions in a complex world*. O’Reilly Media.
 
 Rose, D. E., & Levinson, D. (2004). Understanding user goals in web search. In *Proceedings of the 13th ACM International Conference on World Wide Web* (pp. 13–19). Association for Computing Machinery. https://doi.org/10.1145/988672.988675
 
 Schreiber, S., & Baier, D. (2015). Multivariate landing page optimization using hierarchical Bayes choice-based conjoint. In B. Lausen, S. Krolak-Schwerdt, & M. Böhmer (Eds.), *Data science, learning by latent structures, and knowledge discovery* (pp. 465–474). Springer. https://doi.org/10.1007/978-3-662-44983-7
 
-Viswanathan, P. K., & Swaminathan, T. N. (2017). Quantifying the relative importance of key drivers of landing page. *Indian Journal of Marketing*, *47*(11), 24.
+Viswanathan, P. K., & Swaminathan, T. N. (2017). Quantifying the relative importance of key drivers of landing page. *Indian Journal of Marketing, 47*(11), 24–35. https://doi.org/10.17010/ijom/2017/v47/i11/119294
