@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use this framework or case study evidence, please cite it as below."
+type: software
+title: "Ad Quality Evaluation Framework: A Rubric-Based Methodology for Search Advertising Quality Assessment"
+authors:
+  - family-names: "Palencia Robles"
+    given-names: "Diego"
+    affiliation: "Universidad Galileo"
+    orcid: "https://orcid.org/0000-0000-0000-0000"
+repository-code: "https://github.com/YOUR_USERNAME/ad-quality-evaluation-framework"
+abstract: >
+  A rubric-based framework for evaluating the relevance and quality of search
+  advertisements, grounded in search intent theory, Google's Quality Score
+  methodology, and applied Decision Intelligence. Contains three empirical case
+  studies: live ad quality evaluation, search campaign blueprint, and keyword
+  intent mapping.
+keywords:
+  - ad quality evaluation
+  - search intent
+  - Quality Score
+  - decision intelligence
+  - Google Ads
+  - keyword match types
+  - inter-rater reliability
+license: MIT
+version: 1.0.0
+date-released: 2026-07-27
