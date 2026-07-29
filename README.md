@@ -12,7 +12,7 @@
 
 ## 📋 About This Repository
 
-This repository contains the complete body of applied research and case study evidence developed by **Diego Palencia Robles** in support of an application for the **AI Google Ads Digital Practitioner** role at TELUS International (Remote, Guatemala).
+This repository contains the complete body of applied research and case study evidence developed by **Diego Palencia Robles** in support of an application for the **AI Google Ads Digital Practitioner** role at TELUS International (Guatemala).
 
 The work demonstrates:
 - **Technical depth** in search advertising theory (search intent, Quality Score, keyword architecture)
