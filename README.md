@@ -107,8 +107,8 @@ Every evaluated advertisement is scored independently across five dimensions (1�
 **Diego Palencia Robles**
 - 🎓 MSc, Traffic & Digital Marketing (IEBS – UCAM)
 - 🎓 PhD Candidate, High-Performance Management (Universidad Galileo)
-- 💼 6+ years Digital Support (landing pages, lead forms, email automation, campaign metrics, audience segmentation)
-- 🌐 English C1 | Spanish Native
+- 💼 5+ years Digital Support (landing pages, lead forms, email automation, campaign metrics, audience segmentation)
+- 🌐 English B2 | Spanish Native
 - 📜 Google Ads Search Certification (In Progress)
 
 **Contact:** [Add your email / LinkedIn / portfolio here]
