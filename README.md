@@ -105,7 +105,7 @@ Every evaluated advertisement is scored independently across five dimensions (1�
 
 ## 📄 Academic Paper
 
-**[📖 Read Paper (Web)](./PAPER.md)** | **[📥 Download PDF](./paper.pdf)**
+**[📖 Read Paper (Web)](./PAPER.md)** 
 
 *APA 7th Edition · ~6,200 words · Three empirical case studies*
 
