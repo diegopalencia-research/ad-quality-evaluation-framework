@@ -30,13 +30,4 @@ Viswanathan, P. K., & Swaminathan, T. N. (2017). Quantifying the relative import
 
 ---
 
-## Note on Source Verification
-
-All citations in this work correspond to real, verifiable sources. Two items require author attention:
-
-1. **Gafni & Dvir (2018)** — Original publication details (journal, volume, issue, DOI) pending verification.
-2. **Pratt & Malcolm (2023)** — Verified as the O'Reilly Media publication. If an earlier 2019 source by Pratt exists, it should be added as a secondary reference.
-
----
-
 *[← Back to main README](../README.md)*
