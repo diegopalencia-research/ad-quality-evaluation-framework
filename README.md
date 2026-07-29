@@ -19,7 +19,7 @@ The work demonstrates:
 - **Evidence-based judgment** across three independent case studies
 - **Structured evaluation discipline** aligned with multi-rater AI calibration standards
 
-> *"The central contribution is not a new algorithm, but a structured way of thinking about advertisement quality—one that connects the 'why' of user search behavior to the 'what' of ad creative and the 'how' of landing page experience."*
+> *"The central contribution is a structured way of thinking about advertisement quality—one that connects the 'why' of user search behavior to the 'what' of ad creative and the 'how' of landing page experience."*
 
 ---
 
