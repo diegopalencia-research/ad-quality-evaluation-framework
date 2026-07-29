@@ -102,6 +102,14 @@ Every evaluated advertisement is scored independently across five dimensions (1�
 
 ---
 
+## 📄 Academic Paper — *APA 7th Edition, ~6,200 words*
+
+**Abstract:** This paper presents three empirical case studies evaluating search advertisement quality through the DJPR9.0 framework. Key finding: ads addressing query modifiers in headlines score 3.2× higher on relevance. Grounded in Broder (2002), Jansen et al. (2008), and Pratt & Malcolm (2023).
+
+**Keywords:** search advertising, ad quality evaluation, decision intelligence, Google Ads, Quality Score
+
+---
+
 ## 👤 Author
 
 **Diego Palencia Robles**
