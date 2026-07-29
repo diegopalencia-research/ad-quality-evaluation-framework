@@ -93,8 +93,8 @@ This finding suggests that query modifiers carry **disproportionate evaluative w
 ## Implications for AI Evaluation
 
 1. **Modifier detection** should be a first-class signal in relevance scoring, not a secondary feature
-2. **Intent mismatch** is more damaging than generic copy — a well-written ad for the wrong intent scores lower than a mediocre ad for the right intent
-3. **Landing page experience** acts as a quality ceiling — even perfect ad copy cannot compensate for a poor post-click experience
+2. **Intent mismatch** is more damaging than generic copy a well-written ad for the wrong intent scores lower than a mediocre ad for the right intent
+3. **Landing page experience** acts as a quality ceiling even perfect ad copy cannot compensate for a poor post-click experience
 
 ---
 
